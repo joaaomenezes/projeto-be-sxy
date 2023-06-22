@@ -2,10 +2,6 @@
 
 * {
     font-family: 'inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
 }
 
 body {
@@ -38,8 +34,10 @@ nav {
 }
 
 .nav-links { 
+    
     text-decoration: none;
     color: black
+    
 }
 
 .nav-links:hover {
@@ -73,11 +71,9 @@ button {
 
 
 .search-text{
-    width: 700px;
+    width: 500px;
     height: 52px;
     border-radius: 10px;
-    margin: 0;
-    padding-right: 30px;
     border-color: #00FFFF;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -139,26 +135,6 @@ button {
 
 
 
-p {
-    font-size: 17px;
-}
-
-
-
-.click {
-    width: 150px;
-    height: 41px;
-    margin-top: 50px;
-    border-radius: 32px;
-    font-family: 'Sarala';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 39px;
-    color: #2F2325;
-    background-color: aqua;
-}
-
 footer {
     width: 100%;
     background-color: rgb(221, 217, 197);
@@ -170,78 +146,15 @@ footer {
     grid-template-columns: repeat(4, 1fr);
 }
 
-
-.menu-lateral {
-    width: 80px;
+object {
+    width: 100%;
     height: 100%;
-    background-color: #202020;
-    padding: 40px 0 40px 1%;
-    box-shadow: 3px 0 0 aqua;
     position: fixed;
     top: 0;
     left: 0;
-    overflow: hidden;
-    transition: .5s;
-    cursor: pointer;
-    height: 100vh;
+    z-index: 9999;
 }
 
-.menu-lateral.expandir {
-    width: 300px;
-  
-}
-
-.btn-expandir {
-    width: 100%;
-    padding-left: 10px;
-    cursor: pointer;
-}
-
-.btn-expandir > i {
-    color: aliceblue;
-    font-size: 24px;
-}
-
-ul {
-    height: 100%;
-    list-style-type: none;
-}
-
-ul li.item-menu {
-    transition: .2s;
-}
-
-.ativo {
-    background-color: aqua;
-}
-
-.item-menu {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 20px 4%;
-    display: flex;
-    margin-bottom: 20px;
-    line-height: 40px;
-}
-
-.item-menu:hover {
-    background: aqua;
-}
-
-.txt-link {
-    margin-left: 70px;
-    transition: .5s;
-}
-
-nav.menu-lateral.expandir .txt-link{
-    margin-left: 40px;
-    opacity: 1;
-}
-
-
-
-  
 
 
 
