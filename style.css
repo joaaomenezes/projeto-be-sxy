@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Lato:ital@1&display=swap');
+
+* {
+    font-family: 'inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: antiquewhite;
+    font-size: 100%;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+  
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 16px;
+    background-color: rgb(221, 217, 197);
+
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.nav-links { 
+    text-decoration: none;
+    color: black
+}
+
+.nav-links:hover {
+    color: blue;
+    transition: 4s;
+    text-decoration: underline;
+    
+
+}
+
+.box-btn-actions {
+    display: flex;
+    gap: 16px;
+
+}
+button {
+    padding: .6rem;
+    font-size: .9rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+.btn-actions {
+    background-color: transparent;
+    border: 1px solid aqua;
+    color: black;
+}
+
+
+
+.search-text{
+    width: 700px;
+    height: 52px;
+    border-radius: 10px;
+    margin: 0;
+    padding-right: 30px;
+    border-color: #00FFFF;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+.main {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cont-sec_img {
+    width: 120px;
+    border-radius: 50%;
+    border: 8px solid #00FFFF;
+    margin-bottom: 24px;
+}
+
+.cont-sec_name {
+    font-size: 40px;
+    margin-bottom: 8px;
+  
+}
+
+.cont-sec_subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.info-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.info {
+    width: 340px;
+    height: 200px;
+    background-color: #00FFFF;
+    padding: 20px;
+    border-radius: 32px;
+    justify-content: center;
+}
+
+.info-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    padding: 0px;
+    font-family: arial;
+}
+
+
+
+p {
+    font-size: 17px;
+}
+
+
+
+.click {
+    width: 150px;
+    height: 41px;
+    margin-top: 50px;
+    border-radius: 32px;
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #2F2325;
+    background-color: aqua;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(221, 217, 197);
+   
+}
+
+#footer_content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.menu-lateral {
+    width: 80px;
+    height: 100%;
+    background-color: #202020;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 aqua;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s;
+    cursor: pointer;
+    height: 100vh;
+}
+
+.menu-lateral.expandir {
+    width: 300px;
+  
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.btn-expandir > i {
+    color: aliceblue;
+    font-size: 24px;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu {
+    transition: .2s;
+}
+
+.ativo {
+    background-color: aqua;
+}
+
+.item-menu {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.item-menu:hover {
+    background: aqua;
+}
+
+.txt-link {
+    margin-left: 70px;
+    transition: .5s;
+}
+
+nav.menu-lateral.expandir .txt-link{
+    margin-left: 40px;
+    opacity: 1;
+}
+
+
+
+  
+
+
+
+
+
+
