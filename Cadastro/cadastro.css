@@ -22,7 +22,7 @@ body {
 }
 
 .card {
-  background-color: #ffffff60;
+  background-color: #ffffff80;
   padding: 30px;
   border-radius: 4%;
   box-shadow: 3px 3px 1px 0px #00000060;
@@ -63,7 +63,7 @@ h1{
 
 .label-float label{
   color: #0d009c;
-  pointer-events: none;
+  pointer-event: none;
   position: absolute;
   top: 0;
   left: 0;
